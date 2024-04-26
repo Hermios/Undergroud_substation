@@ -1,5 +1,4 @@
-modname=Undergroud_substation
+modname="Underground_substation"
 tech="tech-"..modname
 recipe="recipe-"..modname
-signal="signal-"..modname
 prototype="prototype-"..modname
