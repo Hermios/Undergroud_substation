@@ -4,7 +4,8 @@ data:extend(
     type = "technology",
     name = tech,
     icon = "__"..modname.."__/graphics/technology/tech.png",
-	  icon_size=128,
+	  icon_size=256,
+    icon_mipmaps = 4,
     effects =
     {
       {
@@ -12,15 +13,17 @@ data:extend(
         recipe = recipe
       },
     },
-  prerequisites = {},
+  prerequisites = {"electric-energy-distribution-2","landfill"},
     unit =
     {
-      count = ,
+      count = 150,
       ingredients =
       {
-        {, },
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1}
       },
-      time = 
+      time = 45
     }
   }
 })
