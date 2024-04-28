@@ -15,7 +15,6 @@ for i=1, 4 do
   }
 end
 createdata("electric-pole","substation",prototype,{
-    collision_box = {{0,0},{0,0}},
     collision_mask = {collision_mask_util.get_first_unused_layer()},
     connection_points = connection_points,
     radius_visualisation_picture = data.raw["electric-pole"]["substation"]["radius_visualisation_picture"],
